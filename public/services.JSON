@@ -74,6 +74,15 @@
         "instructorImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdUtFRsQ5Y9Zqult44HQk6qosHoRenZL_l0A&usqp=CAU",
         "instructorName": "Abdullah Abu Sayeed",
         "courseFee": "$500"
+    },
+    {
+        "key": "100008",        
+        "subject": "literature",    
+        "img": "https://asiasociety.org/sites/default/files/styles/1200w/public/1/140902_literature_header.jpg",     
+        "duration": "03 months",
+        "instructorImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdUtFRsQ5Y9Zqult44HQk6qosHoRenZL_l0A&usqp=CAU",
+        "instructorName": "Abdullah Abu Sayeed",
+        "courseFee": "$500"
     }
     
     
