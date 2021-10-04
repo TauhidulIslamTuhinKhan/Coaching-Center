@@ -18,17 +18,19 @@
 .top-text {
     font-size: 22px;
     font-weight: 600;
-    color: #fa9004;
+    color: tomato;
 }
 
 .heading-text {
-    font-size: 48px;
+    font-size: 62px;
     font-weight: 700;
     color: #fff;
+    margin-bottom: 30px;
 }
 
 .bottom-text {
     font-size: 26px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 20px;
 }

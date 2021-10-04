@@ -26,8 +26,8 @@ const [services, setServices] = useState([]);
                             <div className="hero-text d-flex align-items-center">
                                 <div className="left-text">
                                     <p className="top-text">Know Thyself</p>
-                                    <h1 className="heading-text">Find The Right <br /> Mentor for yourself ...</h1>
-                                    <p className="bottom-text">Meet the best Tutor who will share their Expriences.</p>
+                                    <h1 className="heading-text">Find The Right <br /> Mentor for yourself </h1>
+                                    <p className="bottom-text">Meet the best Tutor who will share their <br /> Expriences...</p>
                                     <button className="btn default-btn">So, Get Started?</button>
                                 </div>
                             </div>
