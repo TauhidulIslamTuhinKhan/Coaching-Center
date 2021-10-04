@@ -1,13 +1,13 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-import './Service.css'
+import './SingleService.css'
 
-const Service = (props) => {
+const SingleService = (props) => {
     const {img, subject, duration, instructorImg, instructorName, courseFee } = props.service;
-    return (       
-       <div className="col-lg-3">
-            <Card style={{ width: '18rem' }}>
-            <Card.Img className="banner-img" variant="top" src={img} />
+    return (
+        <div className="col-lg-4">
+            <Card className="mb-4" style={{ width: '26rem' }}>
+            <Card.Img className="allservice-banner-img" variant="top" src={img} />
             <Card.Body>
                 <Card.Title>Subject : {subject}</Card.Title>
                 <p>Course Duration : {duration}</p>
@@ -20,8 +20,7 @@ const Service = (props) => {
             </Card.Body>
         </Card>
        </div>
-    
     );
 };
 
-export default Service;
+export default SingleService;

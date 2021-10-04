@@ -16,5 +16,9 @@
 .single-service {
     border: 1px solid lightgray;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
+}
+
+.default-btn {
+    background-color: tomato;
 }

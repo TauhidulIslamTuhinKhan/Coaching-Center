@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css'
 import logo from '../images/logo.png'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
            <div className="row">
                 <div className="col-lg-6 footer-padding">
                     <div className="img">
-                        <img src={logo} alt="" />
+                        <Link to="/home"><img src={logo} alt="" /></Link>                        
                         <p>Coaching centres offer classes as per subjects and help students to prepare well. Coaching centres offering specialized classes for Joint and Management entrances are already very popular. In the last few years many students have cracked entrance exams successfully after studying at these coaching centres.</p>
                     </div>
                 </div>
